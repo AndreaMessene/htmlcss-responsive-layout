@@ -56,6 +56,10 @@ a{
         margin: 0 auto;
     }
 
+    .box-header h3{
+        padding: 1rem 0;
+    }
+
 /***** container 1 *****/
     .container-header{
         margin: 0 auto;
@@ -115,6 +119,11 @@ a{
         margin: 0 auto;
     }
 
+    .box-strategic{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
     .strategic-white{
         background-color: white;
         margin-top: 3rem;
@@ -135,6 +144,17 @@ a{
         margin: 0 auto;
         text-align: center;
         margin-top: 3rem;
+    }
+
+    h5{
+        color: #525252;
+        margin-top: 2rem;
+    }
+
+    .testimonials h3{
+        color: #9691e4;
+        padding: 1rem 0;
+        font-size: x-large;
     }
 
     .testimonial-1{
@@ -173,6 +193,11 @@ a{
         background-color: #9792E4;
         margin-top: 3rem;
         padding: 3rem 0 1rem 0;
+    }
+
+    .title-cards h3{
+        color: white;
+        font-size: 25px;
     }
 
     .card{
@@ -307,23 +332,29 @@ a{
         color: white;
     }
 
+    /******************** FOOTER ***********************/
 
+    footer{
+        background-color: #333333;
+        padding: 2rem 0;
 
+    }
 
+    .footer{
+        max-width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
+    .footer p, span{
+        color: white;
+        margin-bottom: 4rem;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .footer span a {
+        text-decoration: underline;
+        color: #8D88D2;
+    }
 
 
 
@@ -355,6 +386,26 @@ a{
         width: 60%;
         margin: 0 auto;
     }
+
+    /********* TESTIMONIAL ***********/
+
+    .testimonial-1{
+        display: flex;
+        padding: 0.5rem 0.5rem;
+        align-items: center;
+    }
+
+    .radius{
+        flex-basis: 30rem;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .testo-testimonial{
+        flex-basis: 70rem;
+
+    }
+
 
     /******** CARDS *******/
 
@@ -394,9 +445,6 @@ a{
         max-width: 40%;
     }
 
-
-
-
 }
 
 /**************************  PORTATILE ***************************/
@@ -412,7 +460,7 @@ a{
         display: inline-block;
     }
 
-    /***************** HEADER ******************/
+    /************* HEADER **************/
     
     .box-1{
         display: flex;
@@ -423,7 +471,7 @@ a{
         margin: 0 auto;
     }
 
-    /***************** MAIN ******************/
+    /************** MAIN ***************/
 
     /**** STRATEGIC ****/
     
@@ -443,7 +491,7 @@ a{
         margin: 0 auto;
     }
 
-    /******************** CARDS ********************/
+    /************ CARDS **************/
 
     .card{
         flex-basis: calc(100% / 3 - 2%);
@@ -454,19 +502,27 @@ a{
         margin: 0 auto;
     }
 
-    /***** ABOUT US ******/
+    /***** testimonials *****/
 
-    .get-started{
-        max-width: 30%;
+    .testimonials{
+        max-width: 75%;
     }
 
+    .testimonial-1{
+        height: 15rem;
+    }
 
+    /********** ABOUT US **********/
 
+    .get-started{
+        max-width: 40%;
+    }
 
+    /************* FOOTER ***************/
 
-
-
-
+    .footer{
+        max-width: 40%;
+    }
 
 }
 
@@ -484,21 +540,6 @@ a{
 
 
 
-
-
-
-    /* li{
-        list-style: none;
-        display: inline-block;
-        margin: 0 6px;
-
-    }
-
-    nav ul li:last-child{
-        padding: 4px;
-        background-color: black;
-        border-radius: 20px;
-    } */
 
 
 
